@@ -3,22 +3,62 @@ body{
     background-image: url(./img/beach.jpg);
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-div{ 
-    width: 450px;
-    height: 200px;
+header h1{ 
+    text-size-adjust: 100px;
+    width: 400px;
+    height: 100px;
     background: rgba(255,255,255,0,5,);
     backdrop-filter: blur(5px);
     color: rgb(246, 240, 240);
-    font-size: 48px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;     
     border-radius: 50px;  
-    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5,);                
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5,);                
  }
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 8%;
+}
+nav ul{
+      flex: 1;
+      text-align: center;
+}
+nav ul li{
+      display: inline-block;
+      list-style: none;
+      margin: 0 20px;
+
+}
+nav ul li a{
+      text-decoration: none;
+      color: #383841;
+      letter-spacing: 2px;
+      font-size: 20px;
+}
+    main { 
+    text-align: flex;
+
+    }
+    p {
+        color: rgb(246, 240, 240);
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin: 1.5rem 0;
+        padding: 1rem;
+
+
+    }
+
+ 
+
+
+
 
   
